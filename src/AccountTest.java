@@ -8,8 +8,8 @@ public class AccountTest
         accountone.setAnnualInterestRate(4.5);
         accountone.withdraw(2500);
         accountone.deposit(3000);
-        System.out.print(accountone.getBalance());
-        System.out.print(accountone.getMonthlyInterest());
+        System.out.println(accountone.getBalance());
+        System.out.println(accountone.getMonthlyInterest());
         System.out.println(accountone.getDateCreated());
 
 
